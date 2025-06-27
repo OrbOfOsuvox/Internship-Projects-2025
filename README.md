@@ -110,83 +110,12 @@ pyinstaller --onefile --windowed main.py
 ## 📄 License
 ### MIT License © 2025 [Pradeep Behera]
 
-## 🙋‍♂️ Contribution
-### Pull requests and issues welcome! Please fork the repo and submit PRs for improvements or bug fixes.
-
-# 🔐 2. Password Strength Analyzer & Wordlist Generator
-
-A dual-purpose security tool for:
-
-- **Analyzing password strength**
-- **Generating targeted password wordlists**
-
-This tool is useful for red teamers, penetration testers, or anyone who wants to test password resilience or create realistic wordlists for audit.
-
----
-
-## 📦 Features
-
-### 🔍 Password Analyzer
-- Uses [`zxcvbn`](https://github.com/dropbox/zxcvbn) to assess password strength
-- Crack time estimation & feedback
-- Password preview toggle (GUI)
-
-### 🧠 Custom Wordlist Generator
-- Inputs: name, birth date, pet name, favorite book, car/bike, etc.
-- Adds leetspeak, case flips, year suffixes, common patterns
-- Outputs `.txt` files under `wordlists/` folder
-- File auto-naming with timestamp + unique ID
-- Prompts for overwrite & auto-opens file (GUI)
-
-### 🖼️ GUI with Tkinter
-- Tabs for password analysis and wordlist generation
-- Toggle to show/hide password input
-- User-friendly experience
-
----
-
-## 🚀 Getting Started
-
-### 🧰 Requirements
-
-Create virtual environment:
+### 🙋‍♂️ Contribution
 ```bash
-venv\Scripts\activate
-```
-Install dependencies:
-```bash
-pip install -r requirements.txt
+Pull requests and issues welcome! Please fork the repo and submit PRs for improvements or bug fixes.
 ```
 
-### ▶️ Run (CLI)
-```bash
-python main.py
-```
-### 🖱️ Run (GUI)
-```bash
-python app/gui_main.py
-```
-
-### 📁 Project Structure
-```bash
-password_strength_analyzer/
-├── app/
-│   ├── analyzer.py
-│   ├── generator.py
-│   ├── ui_cli.py
-│   └── gui_main.py
-├── wordlists/
-├── main.py
-├── requirements.txt
-```
-
-### 🧾 License
-MIT License © 2025 Pradeep Behera
-```bash
-Feel free to download.
-```
-
-# 🔐 3. Secure File Storage System with AES-256 Encryption
+# 🔐 2. Secure File Storage System with AES-256 Encryption
 
 A robust Python application to encrypt and decrypt files locally using AES-256 encryption. It offers both a Command-Line Interface (CLI) and a user-friendly PyQt5-based GUI. Supports metadata logging, tamper detection, bulk file handling, and secure logging.
 
@@ -296,6 +225,79 @@ pyinstaller main.py --name SecureFileVault --onefile
 
 ## 📃 License
 MIT License – Use freely with credit.
+
+# 🔐 3. Password Strength Analyzer & Wordlist Generator
+
+A dual-purpose security tool for:
+
+- **Analyzing password strength**
+- **Generating targeted password wordlists**
+
+This tool is useful for red teamers, penetration testers, or anyone who wants to test password resilience or create realistic wordlists for audit.
+
+---
+
+## 📦 Features
+
+### 🔍 Password Analyzer
+- Uses [`zxcvbn`](https://github.com/dropbox/zxcvbn) to assess password strength
+- Crack time estimation & feedback
+- Password preview toggle (GUI)
+
+### 🧠 Custom Wordlist Generator
+- Inputs: name, birth date, pet name, favorite book, car/bike, etc.
+- Adds leetspeak, case flips, year suffixes, common patterns
+- Outputs `.txt` files under `wordlists/` folder
+- File auto-naming with timestamp + unique ID
+- Prompts for overwrite & auto-opens file (GUI)
+
+### 🖼️ GUI with Tkinter
+- Tabs for password analysis and wordlist generation
+- Toggle to show/hide password input
+- User-friendly experience
+
+---
+
+## 🚀 Getting Started
+
+### 🧰 Requirements
+
+Create virtual environment:
+```bash
+venv\Scripts\activate
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Run (CLI)
+```bash
+python main.py
+```
+### 🖱️ Run (GUI)
+```bash
+python app/gui_main.py
+```
+
+### 📁 Project Structure
+```bash
+password_strength_analyzer/
+├── app/
+│   ├── analyzer.py
+│   ├── generator.py
+│   ├── ui_cli.py
+│   └── gui_main.py
+├── wordlists/
+├── main.py
+├── requirements.txt
+```
+
+### 🧾 License
+MIT License © 2025 Pradeep Behera
+```bash
+Feel free to download.
+```
 
 # 🕵️‍♂️ 4. Steganography Tool — Hide and Extract Text or Files in Images
 
