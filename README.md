@@ -1,7 +1,7 @@
 # Internship-Projects-2025
 
 
-# 🕵️‍♂️ Steganography Tool — Hide and Extract Text or Files in Images
+# 🕵️‍♂️ 1. Steganography Tool — Hide and Extract Text or Files in Images
 
 A Python-based steganography tool with a Tkinter GUI that allows you to securely hide and extract messages (with optional encryption) in image files. Supports drag-and-drop, encryption using Fernet (PBKDF2-derived key), and JPEG-to-PNG conversion to preserve pixel integrity.
 
@@ -122,7 +122,7 @@ Cryptography powered by Fernet
 GUI built using TkinterDnD2
 
 
-# 🔐 Password Strength Analyzer & Wordlist Generator
+# 🔐 2. Password Strength Analyzer & Wordlist Generator
 
 A dual-purpose security tool for:
 
@@ -195,7 +195,7 @@ MIT License © 2025 Pradeep Behera
 Feel free to download.
 ```
 
-# 🔐 Secure File Storage System with AES-256 Encryption
+# 🔐 3. Secure File Storage System with AES-256 Encryption
 
 A robust Python application to encrypt and decrypt files locally using AES-256 encryption. It offers both a Command-Line Interface (CLI) and a user-friendly PyQt5-based GUI. Supports metadata logging, tamper detection, bulk file handling, and secure logging.
 
