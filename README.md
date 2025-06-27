@@ -1,6 +1,5 @@
 # Internship-Projects-2025
 
-# Steganography-Tool-for-Image-File-Hiding
 
 # 🕵️‍♂️ Steganography Tool — Hide and Extract Text or Files in Images
 
