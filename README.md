@@ -230,41 +230,6 @@ A robust Python application to encrypt and decrypt files locally using AES-256 e
 
 ## 🗂️ Project Structure
 
-# 🔐 Secure File Storage System with AES-256 Encryption
-
-A robust Python application to encrypt and decrypt files locally using AES-256 encryption. It offers both a Command-Line Interface (CLI) and a user-friendly PyQt5-based GUI. Supports metadata logging, tamper detection, bulk file handling, and secure logging.
-
----
-
-## 📌 Features
-
-- 🔒 AES-256 (Fernet-based) encryption & decryption
-- 🧾 Metadata logging (file name, timestamp, SHA-256 hash)
-- 🛡️ File integrity verification (tampering detection)
-- 📦 CLI & GUI (PyQt5) support
-- 📂 Bulk file encryption & decryption
-- 🧠 Filename obfuscation with UUID + SHA256
-- 📋 Export metadata and decrypted file paths to CSV
-- 📊 Drag & drop GUI with progress bar
-- 🚫 Overwrite prevention with `--force` option
-- 🪵 Secure logging to `secure_vault.log`
-
----
-
-## 🛠 Tools & Libraries
-
-- Python 3.11+
-- PyQt5 (GUI)
-- cryptography (AES-256 encryption)
-- hashlib, base64
-- argparse (CLI)
-- JSON & CSV (metadata handling)
-- FPDF (PDF report generation)
-
----
-
-## 🗂️ Project Structure
-
 ```bash
 Secure_File_Storage_System_with_AES/
 ├── main.py # CLI logic
