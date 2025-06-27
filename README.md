@@ -354,7 +354,7 @@ python main.py
 ```
 The GUI will launch. Drag and drop an image, type a message, and click "Hide Message".
 
-🛠️ Project Structure
+## 🛠️ Project Structure
 ```bash
 steganography_tool/
 │
@@ -373,7 +373,7 @@ steganography_tool/
 └── README.md
 ```
 
-🔐 How It Works
+## 🔐 How It Works
 
 Converts message to bits and embeds LSB into image.
 
@@ -387,13 +387,13 @@ TXT:: → Plaintext
 
 JPEGs are automatically converted to PNG before embedding.
 
-🧪 Testing
+### 🧪 Testing
 Run test script to embed/extract sample messages:
 ```bash
 python V2_test_steganography.py
 ```
 
-📦 Build as .exe (Windows)
+### 📦 Build as .exe (Windows)
 Install PyInstaller:
 ```bash
 pip install pyinstaller
@@ -402,17 +402,15 @@ Build:
 ```bash
 pyinstaller --onefile --windowed main.py
 ```
-Add a custom icon with --icon=icon.ico
+- Add a custom icon with --icon=icon.ico
 
-🤝 Contributing
+## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first.
+- Pull requests are welcome! For major changes, please open an issue first.
 
-💡 Credits
+## 💡 Credits
 
-Developed with ❤️ using Python, NumPy, and Pillow
-
-Cryptography powered by Fernet
-
-GUI built using TkinterDnD2
+- Developed with ❤️ using Python, NumPy, and Pillow
+- Cryptography powered by Fernet
+- GUI built using TkinterDnD2
 
